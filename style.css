@@ -10,12 +10,12 @@ body{
     align-items: center;
     justify-content: center;  
     min-height: 100vh;
-    background-color: rgb(146, 146, 230);
+    background-color:#343148FF;
 }
 
 .wrapper{
     width: 650px;
-    background-color: brown;
+    background-color:#D7C49EFF;
     border-radius: 10px ;
     padding: 30px 30px 25px;
 }
@@ -77,13 +77,14 @@ body{
     display: flex;
     align-items: center;
     justify-items: center;
-    color: rgb(0, 0, 0);
+    color: #343148FF;
 
 }
 
 #press{
     float: right;
-    
+    background-color:#343148FF ;
     border-radius: 100px;
     padding: 2px;
+    font-size: ;
 }
