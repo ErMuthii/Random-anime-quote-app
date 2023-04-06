@@ -1,6 +1,8 @@
 const animeQuote= document.getElementById('quote')
 const rdmButton=document.getElementById('press')
 const animeCharacter= document.getElementById('name')
+const copyBtn = document.getElementById('copy')
+const playBtn = document.getElementById('play')
 
 
 function rdmAnime(){
@@ -16,6 +18,12 @@ function rdmAnime(){
        
 
 }
+
+playBtn.addEventListener('click', () =>{
+    let words= new SpeechSynthesisUtterance(`${animeQuote.innerText} by ${animeCharacter.innerText}`)
+    speechSynthesis.speak(words);
+
+})
 
 rdmButton.addEventListener('click',rdmAnime)
 
