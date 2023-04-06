@@ -52,8 +52,8 @@ body{
     font-size: 12px;
 }
 
-.wrapper.buttons{
-    border-top: 1px solid #ccc;
+.buttons{
+    border-top: 5px solid #cccccc;
 }
 
 .buttons.features{
@@ -71,8 +71,11 @@ body{
 
 .features ul li{
     margin: 0 5px;
-    width:47px ;
+    width:40px ;
     height: 47px;
-    border: 2px solid blue
+    border: 2px solid blue;
+    border-radius: 30px;
+    
     
 }
+
