@@ -45,4 +45,34 @@ body{
     font: size 15px ;
 }
 
-.content
+.content .character{
+    display:flex ;
+    justify-content: flex-end;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.wrapper.buttons{
+    border-top: 1px solid #ccc;
+}
+
+.buttons.features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+}
+
+.features ul{
+    display: flex;
+
+}
+
+.features ul li{
+    margin: 0 5px;
+    width:47px ;
+    height: 47px;
+    border: 2px solid blue
+    
+}
