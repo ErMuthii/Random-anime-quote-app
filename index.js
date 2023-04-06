@@ -25,5 +25,12 @@ playBtn.addEventListener('click', () =>{
 
 })
 
+copyBtn.addEventListener('click', ()=>{
+    
+
+
+
+})
+
 rdmButton.addEventListener('click',rdmAnime)
 
