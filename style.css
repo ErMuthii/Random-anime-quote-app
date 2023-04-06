@@ -5,6 +5,9 @@
    
 }
 
+
+
+
 body{
     display: flex;
     align-items: center;
@@ -53,7 +56,7 @@ body{
 }
 
 .buttons{
-    border-top: 5px solid #cccccc;
+    border-top: 5px solid #343148FF ;
 }
 
 .buttons.features{
@@ -86,5 +89,10 @@ body{
     background-color:#343148FF ;
     border-radius: 100px;
     padding: 2px;
-    font-size: ;
+    color:#D7C49EFF;
+}
+
+#title{
+    color: black;
+    font-family: sans-serif;
 }
