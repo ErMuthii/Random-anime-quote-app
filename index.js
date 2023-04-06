@@ -26,7 +26,7 @@ playBtn.addEventListener('click', () =>{
 })
 
 copyBtn.addEventListener('click', ()=>{
-    
+    navigator.clipboard.writeText(animeQuote.innerText)
 
 
 
