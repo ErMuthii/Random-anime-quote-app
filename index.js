@@ -7,7 +7,7 @@ const playBtn = document.getElementById('play')
 
 function rdmAnime(){
     rdmButton.innerText= "Loading Quote ..."
-    
+// Used a GET method to get data from my public API    
     fetch('https://animechan.vercel.app/api/random')
         .then(res => res.json())
         .then(data => { 
@@ -18,13 +18,13 @@ function rdmAnime(){
        
 
 }
-
+// Play quote function button 
 playBtn.addEventListener('click', () =>{
     let words= new SpeechSynthesisUtterance(`${animeQuote.innerText} by ${animeCharacter.innerText}`)
     speechSynthesis.speak(words);
 
 })
-
+// Copy quote function button
 copyBtn.addEventListener('click', ()=>{
     navigator.clipboard.writeText(animeQuote.innerText)
 
